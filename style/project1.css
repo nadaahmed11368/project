@@ -1,0 +1,1447 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(252, 250, 248);
+}
+
+.header {
+    overflow: auto;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(216, 74, 97, 0.441);
+    position: fixed;
+    z-index: 999;
+}
+
+.nav2 li {
+    display: inline-block;
+    margin-top: 13px;
+
+}
+
+.nav2 li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav {
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.nav i {
+    font-size: 28px;
+    color: white;
+}
+
+.nav1 i {
+    position: absolute;
+    left: 15px;
+    top: 5px;
+    font-size: 22px;
+    color: rgb(54, 54, 54);
+}
+
+.nav1 input {
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+}
+
+.nav2 {
+    float: right;
+    margin-right: 30px;
+}
+
+.nav1 {
+    display: inline;
+    float: left;
+    margin-top: 10px;
+    position: relative;
+    margin-left: 20px;
+}
+
+.homee {
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background: url(../images/3d-rendering-personal-care-products-fondant-pink.jpg) no-repeat;
+    background-size: cover;
+}
+
+.homee::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.347);
+
+}
+
+.homee * {
+
+    z-index: 15;
+
+}
+
+.home {
+    margin: auto;
+}
+
+.homee h1 {
+    font-size: 63px;
+    color: white;
+}
+
+.homee p {
+    font-weight: 600;
+    color: rgb(229, 227, 227);
+    margin-top: 5px;
+}
+
+.homee button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+.homee .bttn:hover {
+    background-color: rgba(240, 248, 255, 0.459);
+}
+
+.homee .btn:hover {
+    background-color: rgba(216, 74, 98, 0.578);
+}
+
+.btn {
+    color: azure;
+    background-color: rgb(216, 74, 98);
+}
+
+/* //////////////////////////////////////////////////// */
+
+.container {
+    margin: auto;
+    width: 80%;
+
+}
+
+.about-content {
+    overflow: auto;
+    line-height: 35px;
+    padding-top: 20px;
+}
+
+.container h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    padding-top: 70px;
+}
+
+.line {
+    width: 90px;
+    height: 3px;
+    background-color: rgb(216, 74, 98);
+    margin: auto;
+    margin-top: -20px;
+    margin-bottom: 60px;
+}
+
+.about1 {
+    width: 30%;
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.about1:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(216, 74, 98, 0.537);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.about1:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+
+.about2 {
+    width: 30%;
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 0px 5%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.about2:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(216, 74, 98, 0.537);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.about2:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.about3 {
+    width: 30%;
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.about3:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(216, 74, 98, 0.537);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.about3:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.about-content h3 {
+    font-size: 25px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.about1:hover a {
+    color: rgb(219, 52, 80);
+}
+
+.about1:hover i {
+    color: rgb(219, 52, 80);
+}
+
+.about1:hover p {
+    color: black;
+}
+
+.about2:hover a {
+    color: rgb(219, 52, 80);
+}
+
+.about2:hover i {
+    color: rgb(219, 52, 80);
+}
+
+.about2:hover p {
+    color: black;
+}
+
+.about3:hover a {
+    color: rgb(219, 56, 83);
+}
+
+.about3:hover i {
+    color: rgb(219, 52, 80);
+}
+
+.about3:hover p {
+    color: black;
+}
+
+.about-content p {
+    font-weight: 600;
+    color: rgb(84, 84, 84);
+    word-spacing: 1px;
+    position: relative;
+    z-index: 10;
+}
+
+.about-content a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(216, 74, 98);
+    position: relative;
+    z-index: 10;
+}
+
+.about-content i {
+    font-size: 35px;
+    color: rgb(216, 74, 98);
+    position: relative;
+    z-index: 10;
+}
+
+/* ////////////////////////////////////////////////////// */
+
+.nada-content {
+    overflow: auto;
+    line-height: 35px;
+    margin-top: -20px;
+    text-align: center;
+}
+
+
+.nada6 {
+    float: left;
+
+    border-radius: 10px;
+    width: 30%;
+    height: 180px;
+    background: url(../images/perfume-3220296_1280.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+.nada2 {
+    float: left;
+
+    border-radius: 10px;
+    width: 30%;
+    margin: 0px 5%;
+    height: 180px;
+    background: url(../images/bottle-8352498_1280.jpg) no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.nada3 {
+    float: left;
+
+    border-radius: 10px;
+    width: 30%;
+    height: 180px;
+    background: url(../images/perfume-2721147_1280.jpg) no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.nada4 {
+    float: left;
+
+    border-radius: 10px;
+    width: 30%;
+    height: 180px;
+    background: url(../images/bottle-2812214_1280.jpg) no-repeat;
+    background-size: cover;
+}
+
+.nada5 {
+    float: left;
+
+    border-radius: 10px;
+    width: 30%;
+    margin: 0px 5%;
+    height: 180px;
+    background: url(../images/perfume-2574073_1280.jpg) no-repeat;
+    background-size: cover;
+}
+
+.nada1 {
+    float: left;
+    border-radius: 10px;
+    width: 30%;
+    height: 180px;
+    background: url(../images/flower.jpg) no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+
+}
+
+.nada-content h3 {
+    font-size: 32px;
+    position: relative;
+    z-index: 10;
+}
+
+.nada-content p {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    z-index: 10;
+}
+
+.nada-content a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    position: relative;
+    z-index: 10;
+}
+
+.nada-content a i {
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.mo {
+    visibility: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    /* display: flex; */
+}
+
+.nada1:hover .mo {
+    visibility: visible;
+}
+
+.mo::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.523);
+    border-radius: 10px;
+}
+
+.mo * {
+    z-index: 20;
+}
+
+.nada2:hover .mo {
+    visibility: visible;
+}
+
+.nada3:hover .mo {
+    visibility: visible;
+}
+
+.nada4:hover .mo {
+    visibility: visible;
+}
+
+.nada5:hover .mo {
+    visibility: visible;
+}
+
+.nada6:hover .mo {
+    visibility: visible;
+}
+
+/* /////////////////////////////////////////////////////////// */
+
+.nada11 {
+    float: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.nada11:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(216, 74, 98, 0.537);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.nada11:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.nada22 {
+    float: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0px 5%;
+    width: 30%;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.nada22:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(216, 74, 98, 0.537);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.nada22:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.nada33 {
+    float: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.nada33:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(216, 74, 98, 0.537);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.nada33:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.nada44 {
+    float: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 30%;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.nada44:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(216, 74, 98, 0.537);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.nada44:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.nada55 {
+    float: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0px 5%;
+    width: 30%;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.nada55:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(216, 74, 98, 0.537);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.nada55:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.nada66 {
+    float: left;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 30%;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.nada66:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(216, 74, 98, 0.537);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.nada66:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.nood {
+    overflow: auto;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.nood h3 {
+    font-size: 25px;
+    margin: 20px 0px;
+    position: relative;
+    z-index: 10;
+}
+
+.nada11:hover h3 {
+    color: rgb(196, 50, 74);
+}
+
+.nada11:hover p {
+    color: black;
+}
+
+.nada22:hover h3 {
+    color: rgb(196, 50, 74);
+}
+
+.nada22:hover p {
+    color: black;
+}
+
+.nada33:hover h3 {
+    color: rgb(196, 50, 74);
+}
+
+.nada33:hover p {
+    color: black;
+}
+
+.nada44:hover h3 {
+    color: rgb(196, 50, 74);
+}
+
+.nada44:hover p {
+    color: black;
+}
+
+.nada55:hover h3 {
+    color: rgb(196, 50, 74);
+}
+
+.nada55:hover p {
+    color: black;
+}
+
+.nada66:hover h3 {
+    color: rgb(196, 50, 74);
+}
+
+.nada66:hover p {
+    color: black;
+}
+
+.nood p {
+    color: gray;
+    font-weight: 600;
+    position: relative;
+    z-index: 10;
+}
+
+.nood i {
+    margin-right: 5px;
+    font-size: 30px;
+    color: rgb(216, 74, 98);
+    position: relative;
+    z-index: 10;
+}
+
+/* ////////////////////////////////////////////////////////////// */
+
+.div {
+    overflow: auto;
+    margin-top: 50px;
+}
+
+.div1 {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+
+}
+
+.div2 {
+    float: right;
+    width: 45%;
+    margin-left: 5%;
+}
+
+.div1 h3 {
+    font-size: 45px;
+}
+
+.linee {
+    width: 90px;
+    height: 3px;
+    background-color: rgb(216, 74, 98);
+    margin: 8px 2px;
+}
+
+
+.div1 .near {
+    margin: 35px 0px;
+    color: rgba(77, 76, 76, 0.888);
+    font-weight: 600;
+}
+
+.div1 i {
+    font-size: 23px;
+    color: rgb(216, 74, 98);
+}
+
+
+.neer {
+    color: rgba(128, 128, 128, 0.895);
+    margin: 35px 0px;
+    font-weight: 600;
+    word-spacing: 1px;
+}
+
+.div2 img {
+    height: 450px;
+    margin-left: 28px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.div2 .icon {
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+.icon .checked11 {
+    background-color: rgb(216, 74, 98);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.div2 .icon .checked {
+    background-color: gray;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.div2 .icon .checked:hover {
+    background-color: rgb(216, 74, 98);
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+.content {
+    color: white;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    font-weight: 600;
+    background: url(../images/3d-rendering-personal-care-products-fondant-pink.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    position: relative;
+}
+
+.content::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(128, 128, 128, 0.34);
+
+}
+
+.content * {
+    z-index: 20;
+}
+
+.count {
+    margin: auto;
+    width: 80%;
+    overflow: auto;
+}
+
+.number {
+    font-size: 20px;
+}
+
+.content i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: rgb(216, 74, 98);
+}
+
+.nada111 {
+
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+
+.nada222 {
+
+    width: 20%;
+    text-align: center;
+    float: left;
+    margin: 0px 6.5%;
+}
+
+.nada333 {
+
+    width: 20%;
+    text-align: center;
+    float: left;
+    margin-right: 6.5%;
+}
+
+.nada444 {
+
+    width: 20%;
+    text-align: center;
+    float: left;
+}
+
+/* ////////////////////////////////////////////////////////// */
+
+.price {
+    overflow: auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.price1 {
+    float: left;
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px 0;
+    position: relative;
+}
+
+.price1:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(216, 74, 98, 0.537);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.price1:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.price2 {
+    float: left;
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0px 5%;
+    padding: 25px 0;
+    position: relative;
+}
+
+.price2:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(216, 74, 98, 0.537);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.price2:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.price3 {
+    float: left;
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px 0;
+    position: relative;
+}
+
+.price3:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(216, 74, 98, 0.537);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.price3:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.price button {
+    border: 2px solid rgb(216, 74, 98);
+    border-radius: 10px;
+    padding: 6px 40px;
+    font-weight: 500;
+    position: relative;
+    z-index: 10;
+}
+
+.price1:hover button {
+    background-color: white;
+}
+
+.price2:hover button {
+    background-color: white;
+}
+
+.price3:hover button {
+    background-color: white;
+}
+
+.price1:hover .pp {
+    color: rgb(222, 56, 83);
+}
+
+.price2:hover .pp {
+    color: rgb(222, 56, 83);
+}
+
+.price3:hover .pp {
+    color: rgb(222, 56, 83);
+}
+
+.pp {
+    position: relative;
+    z-index: 10;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(216, 74, 98);
+    border-radius: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 35px;
+    font-weight: 900;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.circle .nir {
+    font-size: 18px;
+    font-weight: 900;
+    position: relative;
+    z-index: 10;
+}
+
+/* //////////////////////////////////////////////////////////// */
+
+.ground {
+    color: white;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    background: url(../images/front-view-cologne-bottle-rotten-tree-branch-blurred-beige-background.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+}
+
+.ground::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.511);
+
+}
+
+.ground * {
+    z-index: 30;
+}
+
+.go {
+    margin: auto;
+    width: 80%;
+    overflow: auto;
+}
+
+.nada1111 img,
+.nada2222 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.nada1111 h3,
+.nada2222 h3 {
+    margin-left: 120px;
+    margin-top: -60px;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.nada1111 span,
+.nada2222 span {
+    margin-left: 120px;
+    margin-top: -40px;
+    font-weight: 700;
+    font-size: 19px;
+    color: rgb(228, 56, 85);
+}
+
+.nada1111 p,
+.nada2222 p {
+    margin-top: 15px;
+    word-spacing: 1px;
+    line-height: 25px;
+}
+
+.nada1111 {
+    float: left;
+    width: 45%;
+    margin-right: 10%;
+
+}
+
+.nada2222 {
+    float: left;
+    width: 45%;
+
+}
+
+/* //////////////////////////////////////////////////////////////// */
+
+.team {
+    overflow: auto;
+}
+
+.team1 {
+    width: 30%;
+    float: left;
+    border-radius: 10px;
+    position: relative;
+}
+
+.team2 {
+    width: 30%;
+    float: left;
+    border-radius: 10px;
+    margin: 0px 5%;
+    position: relative;
+}
+
+.team3 {
+    width: 30%;
+    float: left;
+    border-radius: 10px;
+    position: relative;
+}
+
+.tm {
+    background-color: rgba(128, 128, 128, 0.29);
+}
+
+.img {
+    position: relative;
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    z-index: 10;
+}
+
+.img img {
+    width: 100%;
+    height: 200px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.427);
+    visibility: hidden;
+}
+
+.img:hover .overlay {
+    visibility: visible;
+}
+
+.overlay a {
+    width: 30px;
+    height: 50px;
+    display: block;
+    line-height: 40px;
+    margin-left: auto;
+    font-size: 23px;
+    background-color: rgb(203, 55, 80);
+    color: white;
+    padding: 4px;
+}
+
+.info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info h3 {
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.tm:hover h3 {
+    color: white;
+}
+
+.tm:hover span {
+    color: rgb(232, 64, 92);
+}
+
+.info span {
+    color: rgb(78, 77, 77);
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    z-index: 10;
+}
+
+.team1:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(232, 64, 92);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.team1:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+
+}
+
+.team2:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(232, 64, 92);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.team2:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.team3:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(232, 64, 92);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.team3:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+.new {
+    overflow: auto;
+    text-align: center;
+    margin: auto;
+    margin-top: -20px;
+}
+
+.new img {
+    width: 230px;
+    height: 200px;
+    margin: auto;
+    display: block;
+    position: relative;
+    z-index: 10;
+}
+
+.new p {
+    display: inline-block;
+    margin: 10px;
+    font-weight: 800;
+    font-size: 18px;
+    position: relative;
+    z-index: 10;
+}
+
+.new .gray {
+    color: rgb(90, 88, 88);
+    font-size: 16px;
+    position: relative;
+    z-index: 10;
+}
+
+.new span {
+    color: rgb(232, 64, 92);
+    margin: 0px 2px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.new h3 {
+    font-size: 20px;
+    margin: 5px 0;
+    position: relative;
+    z-index: 10;
+}
+
+.new a {
+    text-decoration: none;
+    font-weight: 700;
+    color: rgb(232, 64, 92);
+    position: relative;
+    z-index: 10;
+}
+
+.new1 {
+    float: left;
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px 0;
+    position: relative;
+}
+
+.new1:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(216, 74, 98, 0.537);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.new1:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.new2 {
+    float: left;
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0px 5%;
+    padding: 25px 0;
+    position: relative;
+}
+
+.new2:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(216, 74, 98, 0.537);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.new2:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.new3 {
+    float: left;
+    width: 30%;
+    border: 1px solid black;
+    padding: 25px 0;
+    border-radius: 10px;
+    position: relative;
+}
+
+.new3:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgba(216, 74, 98, 0.537);
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.new3:hover::after {
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+/* ////////////////////////////////////////////////////////////////// */
+
+#Contact {
+    width: 100%;
+    height: 350px;
+    background-color: rgba(216, 74, 97, 0.441);
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.foote {
+    margin: 0 37%;
+    margin-top: -22px;
+    width: 310px;
+}
+
+.foote img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 7px;
+
+}
+
+.foote i {
+    padding: 8px;
+    font-size: 32px;
+    color: white;
+    background-color: rgb(216, 74, 98);
+    border-radius: 50%;
+}
+
+.foote i:hover {
+    background-color: rgb(149, 40, 58);
+}
+
+.foote p {
+    color: rgb(74, 73, 73);
+    font-weight: 600;
+    margin: 12px 0;
+    font-size: 12px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////// */
